@@ -1,0 +1,92 @@
+:root{
+    --white: #FFFFFF;
+    --dark-green: #117A7A;
+    --red: #B2324A;
+    --gray: #F6F7F9;
+    --dark-gray: #d9d9d9;
+    --green: #1C9675;
+    --lead:#5A5A5A;
+    --dark-lead: #767E8C;
+}
+.title{
+    color: var(--gray);
+    font-family: Overpass;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.content{
+    border-radius: 10px 0px 0px 10px;
+    background: var(--gray);
+    display: flex;
+    width: 587px;
+    padding: 16px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: var(--dark-lead);
+    font-family: Overpass;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+.Agregar{
+    display: flex;
+    width: 94px;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    background-color: var(--green);
+    font-family: Overpass;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.pendientes{
+    display: flex;
+    width: 334px;
+    padding: 10px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--dark-gray);
+    background: var(--white);
+}
+.inpendiente{
+    color: var(--red);
+    font-family: Overpass;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.nota{
+    border-radius: 10px;
+    background: var(--white);
+    display: flex;
+    width: 687px;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--lead);
+    font-family: Overpass;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: strikethrough;
+}
+
+.eliminar{
+    width: 20px;
+    height: 20px;
+}
+.completado{
+    color: var(--dark-green);
+    width: 20px;
+    height: 20px;
+}
