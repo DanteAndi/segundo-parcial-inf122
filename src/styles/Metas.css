@@ -55,8 +55,6 @@
     border-radius: 10px;
     border: 1px solid var(--dark-gray);
     background: var(--white);
-}
-.inpendiente{
     color: var(--red);
     font-family: Overpass;
     font-size: 16px;
@@ -80,8 +78,8 @@
     line-height: normal;
     text-decoration-line: strikethrough;
 }
-
 .eliminar{
+    color: var(--red);
     width: 20px;
     height: 20px;
 }
